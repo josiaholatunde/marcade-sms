@@ -2,18 +2,20 @@
   <v-app>
     <app-header />
     <v-content>
-      <h1>Hello World</h1>
+      <main-body />
     </v-content>
   </v-app>
 </template>
 
 <script>
 import AppHeader from '@/components/Header.vue';
+import MainBody from '@/components/MainBody.vue';
 
 export default {
   name: 'App',
   components: {
     AppHeader,
+    MainBody
   },
   data: () => ({
     //

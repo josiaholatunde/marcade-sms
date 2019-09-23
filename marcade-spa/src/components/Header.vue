@@ -1,6 +1,6 @@
 <template>
     <v-app-bar app color='bg-main white--text'>  
-      <v-toolbar-title class="headline text-uppercase">
+      <v-toolbar-title class="headline">
         <span class='material-icons align-middle'>shopping_cart</span>
         <span class="font-weight-light">Marcade</span>
       </v-toolbar-title>
