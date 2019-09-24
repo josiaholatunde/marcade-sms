@@ -1,10 +1,10 @@
 <template>
     <div class="container-fluid">
         <div class="row h-100">
-            <div class="col-md-2 bg-main">
+            <div class="col-md-2 bg-main vh-100">
                 <side-bar />
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10 bg-content">
                 <router-view></router-view>
             </div>
         </div>
@@ -22,9 +22,11 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-    .bg-main {
-        background: #fff;
+  
+    .bg-content {
+        background: #f6f7f9;
+    }
+    .vh-100 {
         height: 100vh;
-        box-shadow: 1px 1px 3px #ddd;
     }
 </style>

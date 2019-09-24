@@ -1,14 +1,19 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import MainBody from '../components/MainBody.vue'
+import TeacherContent from '../components/TeacherContent.vue'
+import Dashboard from '../views/Dashboard.vue';
 
 Vue.use(VueRouter);
 
 const routes = [
     {
         path: '/',
-        component: MainBody
-    }
+        component: TeacherContent
+    },
+    {
+        path: '/dashboard',
+        component: Dashboard
+    },
 ]
 
 

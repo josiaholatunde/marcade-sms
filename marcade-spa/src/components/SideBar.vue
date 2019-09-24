@@ -9,9 +9,9 @@
        </div>
         <h4 class="mb-0 mt-5">SS3 Form Teacher</h4>
        <div class="row  mt-4 px-0 ">
-           <div class="col-md-12 bg-grey pointer">
+           <router-link  tag='div' to='/dashboard' class="col-md-12 bg-grey pointer">
                Dashboard
-           </div>
+           </router-link>
             <div class="col-md-12 bg-grey mt-4 pointer" v-for="({title}, index) in teacherRoles" :key='index'> 
                 {{ title }}
            </div>
