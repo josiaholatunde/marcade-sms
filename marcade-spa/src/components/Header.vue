@@ -21,7 +21,6 @@ export default {
 
 <style>
 .theme--light.v-sheet {
-
     background: #064475 !important;
 }
 </style>
