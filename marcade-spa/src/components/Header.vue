@@ -1,8 +1,8 @@
 <template>
     <v-app-bar app color='bg-main white--text'>  
-      <v-toolbar-title class="headline text-uppercase">
+      <v-toolbar-title class="headline">
         <span class='material-icons align-middle'>shopping_cart</span>
-        <span class="font-weight-light">Marcade</span>
+        <span class="font-weight-light">Marcade-SMS</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down d-flex align-items-center">
