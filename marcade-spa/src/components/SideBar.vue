@@ -12,9 +12,9 @@
            <router-link  tag='div' to='/dashboard' class="col-md-12 bg-grey pointer">
                Dashboard
            </router-link>
-            <div class="col-md-12 bg-grey mt-4 pointer" v-for="({title}, index) in teacherRoles" :key='index'> 
+            <router-link  tag='div' :to='to' class="col-md-12 bg-grey mt-4 pointer" v-for="({ title, to}, index) in teacherRoles" :key='index'> 
                 {{ title }}
-           </div>
+           </router-link>
        </div>
     </div>
 </template>
@@ -25,11 +25,11 @@ export default {
     data() {
         return {
             teacherRoles: [
-                { title: 'Make Roll Call' },
-                { title: 'Subject Results' },
-                { title: 'Student\'s Term Results' },
-                { title: 'Broad Sheet' },
-                { title: 'Report Medical Incidence' },
+                { title: 'Make Roll Call', to: '/roll-call' },
+                { title: 'Subject Results', to: '/roll-call' },
+                { title: 'Student\'s Term Results' , to: '/roll-call' },
+                { title: 'Broad Sheet', to: '/roll-call' },
+                { title: 'Report Medical Incidence', to: '/roll-call' },
             ]
         }
     }
