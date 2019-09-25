@@ -3,6 +3,9 @@ import VueRouter from 'vue-router';
 import TeacherContent from '../components/TeacherContent.vue'
 import Dashboard from '../views/Dashboard.vue';
 import RollCall from '../views/RollCall.vue';
+import SubjectResults from '../views/SubjectResults.vue';
+
+
 
 Vue.use(VueRouter);
 
@@ -18,6 +21,10 @@ const routes = [
     {
         path: '/roll-call',
         component: RollCall
+    },
+    {
+        path: '/subjects/results',
+        component: SubjectResults
     },
 ]
 

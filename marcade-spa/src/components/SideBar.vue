@@ -26,7 +26,7 @@ export default {
         return {
             teacherRoles: [
                 { title: 'Make Roll Call', to: '/roll-call' },
-                { title: 'Subject Results', to: '/roll-call' },
+                { title: 'Subject Results', to: '/subjects/results' },
                 { title: 'Student\'s Term Results' , to: '/roll-call' },
                 { title: 'Broad Sheet', to: '/roll-call' },
                 { title: 'Report Medical Incidence', to: '/roll-call' },
